@@ -1,0 +1,624 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Lato:300,400,700,700i,900|Lobster|Roboto:400,400i,500,500i,700,700i,900&display=swap');
+body
+{
+	scroll-behavior: smooth;
+	background: #000;
+}
+html
+{
+	scroll-behavior: smooth;
+}
+.menu p
+{
+	position: absolute;
+	right: 80px;
+	top: 45px;
+	font-weight: 500;
+	font-size: 2.5rem;
+	color: #fff;
+	cursor: pointer;
+}
+#bar ul
+{
+	list-style: none;
+	margin-top: 80px;
+}
+#bar ul li
+{
+	padding-top: 10px;
+}
+#bar ul li a
+{
+	color:#f1f1f1;
+	font-size: 16px;
+	text-decoration: none;
+	cursor: default;
+}
+#bar ul li a i 
+{
+	padding-right: 10px;
+	font-size: 14px;
+}
+#bar ul li a:hover
+{
+	font-weight: bold;
+	color: #ffef39;
+	padding-left: 20px;
+	transition: 0.5s;
+}
+#bar
+{
+	background-color: #020102;
+	width: 200px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0px;
+	color: #fff;	
+	overflow: hidden;
+	transition:0.5s;
+}
+#close
+{
+	position: absolute;
+	top: 20px;
+	right: 25px;
+	font-weight: bolder;
+	font-size: 24px;
+	cursor:pointer; 
+}
+.menu1
+{
+	position: sticky;
+	top: 20px;
+	right: 50px;
+	color: #ccc;
+}
+#home
+{
+	background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/background.jpg);
+	height: 100vh;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.container h2 span
+{
+	color: #ffef39;
+	font-size: 30px;
+	font-family: courgette;
+}
+.container h2
+{
+	padding-top: 200px;
+	color: #f1f1f1;
+	line-height: 1.5;
+	font-size: 45px;
+	font-family: roboto;
+}
+.container h3 span
+{
+	color:  #ffef39;
+	font-size: 2rem;
+	font-family: courgette;
+}
+.container h3
+{
+	color:#f1f1f1;
+	line-height: 1.5;
+	font-size: 2rem;
+	font-family: roboto;
+}
+.container button 
+{
+	background-color: transparent;
+	color: #ffef39;
+	border-radius: 10px;
+	border:1px solid #ffef39;
+	padding-left: ;
+	font-size: 14px;
+	font-family: roboto;
+	font-weight: 500;
+	margin-top: 30px;
+}
+.container button a i
+{
+	padding-left: 8px;
+	font-size: 12px;
+}
+.container button:hover
+{
+	background-color: #ffef39;
+	color: #000;
+	border:1px solid #ffef39;
+	transition:0.4s;
+	
+}
+/*-----about css------*/
+#about
+{
+	background: #111111;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.bg1 h2
+{
+	font-weight: 700;
+	color: #fff;
+	padding-top: 0px;
+	text-align: center;
+}
+.bg1 p
+{
+	font-size: 14px;
+	color: #f1f1f1;
+	line-height: 1.7;
+	letter-spacing: 1.6px;
+}
+.about_p
+{
+	text-align: center;
+}
+.bg1 h2::after
+{
+	content: '';
+	top: 20px;
+	color: #fff;
+	width: 100px;
+	height: 1px;
+	position: absolute;
+	left: 0px;
+}
+.bg1 .row
+{
+	padding-top:70px ;
+}
+.me 
+{
+	padding-right: 30px;
+	text-align: left;
+	padding-bottom: 10px;
+}
+.bio a
+{
+	color: #000;
+	text-decoration: none;
+	border: 1px solid #00a652;
+	background: #00a652;
+	padding:4px 6px; 
+	border-radius: 5px;
+	font-size: 14px;
+	font-family: roboto;
+	font-weight: 500;
+}
+.bio a:hover
+{
+	background-color: #ffef39;
+	color: #000;
+	border:1px solid #ffef39;
+	transition:0.6s;	
+}
+.img1
+{
+	margin-top: 40px;
+	margin-bottom: 25px;
+}
+@media(min-width: 860px)
+{
+	.img1{margin-top: 0px;}
+}
+.image
+{
+	border-radius: 50%;
+	width:auto;
+	height: 250px;
+	opacity: 0.8;
+}
+.detail
+{
+	padding-top: 20px;
+	text-align: left;
+	padding-left: 60px;
+	padding-bottom: 6px;
+	display: inline-block;
+}
+.detail span
+{
+	font-weight: 700;
+	color: #f1f1f1;font-size: 14px;
+}
+.cv a
+{
+	color: #000;
+	text-decoration: none;
+	border: 1px solid #00a652;
+	background: #00a652;
+	padding:4px 6px; 
+	border-radius: 5px;
+	font-size: 14px;
+	font-family: roboto;
+	font-weight: 500;
+}
+.cv a i
+{
+	padding-left: 8px;
+}
+.cv a:hover
+{
+	background-color: #ffef39;
+	color: #000;
+	border:1px solid #ffef39;
+	transition:0.6s;	
+}
+/*------------skill css------------*/
+#skills
+{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.bg2 h2
+{
+	padding-top: 0px;
+	color: #fff;
+	text-align: center;
+}
+.bg2 h4
+{
+	color: #f1f1f1;
+	font-size: 14px;
+	letter-spacing: 1.2px;
+	text-align: center;
+}
+.skillbox
+{
+	margin-top: 30px;
+}
+.skillbox p
+{
+	color: #f1f1f1;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+.skillbox p:nth-child(2)
+{
+	float: right;
+	position: relative;
+	top: -39px;
+}
+.skill
+{
+	background: transparent;
+	border-radius: 5px;
+	border:1px solid #00a652;
+	box-sizing: border-box;
+	margin-top: -10px;
+}
+.skilllevel
+{
+	background: #00a652;
+	width: 100%;
+	height:8px;
+}
+/*-----------service css-------*/
+#service
+{
+	padding-top: 40px;
+	padding-bottom: 60px;
+	background: #111;
+}
+.bg3 h2
+{
+	padding-top: 0px;
+	color: #fff;
+	text-align: center;
+}
+.bg3 h4
+{
+	color: #f1f1f1;
+	font-size: 14px;
+	letter-spacing: 1.2px;
+	text-align: left;
+}
+.servicebox
+{
+	background:transparent; ; 
+	padding: 15px 10px;
+}
+.servicebox h4 i
+{
+	color: #fff;
+	font-size: 2.5rem;
+	opacity: 0.27;
+	position: absolute;
+	top: 40px;
+	/*border-radius: 50%;
+	border:2px solid #00a652;
+	background: #00a652*/
+}
+.servicebox h4
+{
+	color:#999;
+	font-size: 24px;
+	font-family: roboto;
+	font-weight: bold;
+	padding-top: 10px;
+	opacity: ;
+}
+.servicebox p
+{
+	color: #666;
+	font-size: 14px;
+	text-align: left;
+	letter-spacing: 1px;
+	word-spacing: 1.05px;
+	margin: 30px 0;
+}
+.ser
+{
+	background: ;
+}
+/*--------counter section css-------*/
+#counter
+{
+	background: url(../img/tumblr.gif);
+	background-attachment:fixed ;
+	background-size: cover;
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 40px; 
+	background-position: center;
+}
+.bg4 h2
+{
+	padding-top: 0px;
+	color: #fff;
+	font-family:courgette;
+	font-weight: bold;
+
+}
+.bg4 p
+{
+	color: #f1f1f1;
+	font-size:16px;
+	font-family:lato;
+	font-weight: 700;
+}
+.counter_icon 
+{
+	padding-bottom: 20px;
+}
+.counter_icon i
+{
+	font-size: 20px;
+	background:#00a652;
+	color: #f1f1f1;
+	border-radius: 50%;
+	padding: 10px 11px;
+	border:2px solid #00a652;
+}
+.counter_icon i:hover
+{
+	background: transparent;
+	color: #00a652;
+	transition: 0.7s;
+}
+/*-----freelancer----*/
+#freelance
+{
+	background:url(../img/hero-bg.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.bg6 h2
+{
+	font-family: ; 
+	padding-top: 0px;
+}
+.bg6 h2 span
+{
+	color:#00a652;
+	font-size:40px;
+}
+.bg6 p
+{
+	color: #f1f1f1;
+	font-size: 14px;
+	font-weight: 600;
+}
+.bg6 p a
+{
+	background: #00a652;
+	color: #fff;
+	border:2px solid #00a652;
+	border-radius: 10px;
+	padding: 2px 10px;
+}
+.bg6 p a:hover
+{
+	background:transparent;
+	border:2px solid #00a652;
+	transition: 0.6s;
+}
+#project
+{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background: #111;
+}
+.bg5 h2
+{
+	padding-top: 0px;
+}
+/*-------contact section css------*/
+#contact
+{
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.bg7 h2
+{
+	padding-top: 0px;
+}
+.bg7 p
+{
+	color: #f1f1f1;
+	font-size: 16px;
+}
+.form
+{
+	padding:;
+	margin: 8px 0;
+}
+form input[type=text],form input[type=email]
+{
+	width: 90%;
+	height: 30px;
+	background: #999;
+	border:2px solid #999;
+	text-align: left;
+	padding-left: 12px;
+	color: #000;
+	border-radius: 8px;
+	font-family: roboto;
+	font-weight: bold;
+	font-size: 14px;
+}
+textarea
+{
+	width: 90%;
+	background: #999;
+	border:2px solid #999;
+	text-align: left;
+	padding-left: 12px;
+	color: #000;
+	border-radius: 8px;
+	font-family: roboto;
+	font-weight: bold;
+	font-size: 14px;
+}
+.submit button
+{
+	background: transparent;
+	border-radius: 5px;
+	border:1px solid #eee;
+	color: #f1f1f1;
+	padding: 5px;
+	width: 100px;
+}
+.submit button:hover
+{
+	background: #999;
+	border:1px solid #999;
+	color: #000;
+	transition: 0.7s;
+}
+.getin
+{
+	position: relative;
+	left: 25px;
+	margin-top: 40px;
+}
+@media(min-width: 860px)
+{
+	.getin{left: 100px;margin-top: 15px;}
+}
+.getin p
+{
+	font-size: 16px;
+	color: #f1f1f1;
+	text-align: left;
+	position: relative;
+	left: 30px;
+}
+.media 
+{
+	color: #f1f1f1;
+	font-size: 20px;
+	float:left; 
+	position: relative;
+}
+.media i
+{
+	color: #666;
+	position: absolute;
+	top: 5px;
+}
+.social a
+{
+	margin: ;
+}
+.social a i 
+{ 	
+	padding: 10px 8px;
+	font-size: 16px;
+	border-radius:1px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.social a i:hover 
+{ 
+	color: #000;
+	background: #999;
+	transition: 0.7s;
+}
+.facebook_icon i
+{
+	/*color: #44619D;*/
+	border:solid 1px #999;
+	background: transparent;
+	color: #999;
+}
+.twitter_icon i
+{
+	/*color: #33CCFF;*/
+	border:solid 1px #999;
+	color: #999;
+	background: transparent;
+}
+.github_icon i
+{
+	color: #999;
+	border:solid 1px #999;
+	background: transparent;
+}
+.linkedin_icon i
+{
+	/*color: #1B86BD;*/
+	border:solid 1px #999;
+	color: #999;
+	background:transparent;
+}
+/*-----footer----*/
+footer
+{
+	padding-top: 8px;
+	padding-bottom: 5px;
+	background: #111;
+}
+footer a
+{
+	text-decoration: none;
+	color: #f2f2f2;
+	font-size: 2.5rem;
+	font-family: roboto;
+	font-weight: 700;
+}
+footer a:hover
+{
+	text-decoration: none;
+	color:#f2f2f2;
+	transition: 0.8s;
+	font-size: 2.75rem;
+}
+footer p
+{
+	color: #999;
+	font-size: 14px;
+	letter-spacing: 1.5px;
+	font-family: roboto;
+	margin-top: 5px;
+
+}
+
