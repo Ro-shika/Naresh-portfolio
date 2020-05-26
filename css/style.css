@@ -108,29 +108,28 @@ html
 	font-size: 2rem;
 	font-family: roboto;
 }
-.container button 
+.hire_me
 {
-	background-color: transparent;
-	color: #ffef39;
-	border-radius: 10px;
-	border:1px solid #ffef39;
-	padding-left: ;
-	font-size: 14px;
+	margin-top: 35px;
+}
+.hire_me a 
+{
+	color: #f1f1f1;
+	border:solid 2px #f1f1f1;
+	padding: 8px 30px;
+	font-size: 16px;
+	background: transparent;
 	font-family: roboto;
 	font-weight: 500;
-	margin-top: 30px;
+	text-decoration: none;
+	border-radius: 5px;
 }
-.container button a i
-{
-	padding-left: 8px;
-	font-size: 12px;
-}
-.container button:hover
+.hire_me a:hover
 {
 	background-color: #ffef39;
 	color: #000;
 	border:1px solid #ffef39;
-	transition:0.4s;
+	transition:0.6s;
 	
 }
 /*-----about css------*/
@@ -158,19 +157,15 @@ html
 {
 	text-align: center;
 }
-.bg1 h2::after
+.line_1
 {
-	content: '';
-	top: 20px;
-	color: #fff;
-	width: 100px;
-	height: 1px;
-	position: absolute;
-	left: 0px;
+	background: #ccc;
+	opacity: 0.4;
+	margin-top: 35px;
 }
 .bg1 .row
 {
-	padding-top:70px ;
+	padding-top:50px ;
 }
 .me 
 {
@@ -187,8 +182,8 @@ html
 	padding:4px 6px; 
 	border-radius: 5px;
 	font-size: 14px;
-	font-family: roboto;
 	font-weight: 500;
+	font-family: roboto;
 }
 .bio a:hover
 {
@@ -216,15 +211,31 @@ html
 .detail
 {
 	padding-top: 20px;
-	text-align: left;
-	padding-left: 60px;
-	padding-bottom: 6px;
-	display: inline-block;
 }
-.detail span
+.detail p 
 {
-	font-weight: 700;
-	color: #f1f1f1;font-size: 14px;
+	text-align: left;
+	font-size: 14px;
+}
+.span_1
+{
+	padding-left:40px;
+}
+.span_2
+{
+	padding-left:55px;
+}
+.span_3
+{
+	padding-left:16px;
+}
+.span_4
+{
+	padding-left:22px;
+}
+.cv
+{
+	padding-top: 12px;
 }
 .cv a
 {
@@ -254,6 +265,9 @@ html
 {
 	padding-top: 40px;
 	padding-bottom: 40px;
+	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/JavaScript.jpg);
+	background-size: cover;
+	background-attachment: fixed;
 }
 .bg2 h2
 {
@@ -298,6 +312,30 @@ html
 	background: #00a652;
 	width: 100%;
 	height:8px;
+}
+.see_more
+{
+	margin-top: 50px;
+	margin-left: -54px;
+}
+.see_more a
+{
+	color: #00a652;
+	text-decoration: none;
+	border: 1px solid #00a652;
+	background: transparent;
+	padding:5px 8px; 
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: 500;
+	font-family: roboto;
+}
+.see_more a:hover
+{
+	background-color: #00a652;
+	color: #000;
+	border:1px solid #00a652;
+	transition:0.6s;	
 }
 /*-----------service css-------*/
 #service
