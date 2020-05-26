@@ -265,7 +265,7 @@ html
 {
 	padding-top: 40px;
 	padding-bottom: 40px;
-	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/JavaScript.jpg);
+	background:linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url(../img/JavaScript.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -316,7 +316,10 @@ html
 .see_more
 {
 	margin-top: 50px;
-	margin-left: -54px;
+}
+@media(min-width: 840px)
+{
+	.see_more{margin-left: -54px;}
 }
 .see_more a
 {
@@ -659,7 +662,7 @@ footer p
 	margin-top: 5px;
 
 }
-
+/*-----aboutpage---*/
 #aboutpage
 {
 	padding-top: 30px;
@@ -703,15 +706,72 @@ footer p
 }
 .edu_img
 {
-	opacity: 0.7;
+	opacity: 0.6;
+}
+.edu_1
+{
+	padding-top: 7px;
+	padding-bottom: 5px;
+}
+#education h3
+{
+	font-weight: 700;
+}
+.edu_1 h5 span
+{
+	font-weight: bold;
+	font-family: roboto;
 }
 .edu_1 h5
 {
 	color: #f1f1f1;
 	font-size: 16px;
+	text-align: left;
 }
 .edu_1 p
 {
 	font-size: 14px;
 	color: #666;
+	text-align: justify;
+	padding-left: 65px;
+}
+.bg2 h3
+{
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 700;
+}
+/*----experience--------*/
+#experience
+{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background: #111;
+}
+.exp_1
+{
+	padding-top: 7px;
+	padding-bottom: 5px;
+}
+.exp_1 h5 span
+{
+	font-weight: 500;
+	font-family: roboto;
+}
+.exp_1 h5
+{
+	color: #f1f1f1;
+	font-size: 16px;
+	text-align: left;
+}
+.exp_1 p
+{
+	font-size: 14px;
+	color: #666;
+	text-align: justify;
+	padding-left: 65px;
+}
+.exp_img
+{
+	opacity: 0.6;
 }
