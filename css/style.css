@@ -482,15 +482,56 @@ html
 	border:2px solid #00a652;
 	transition: 0.6s;
 }
-#project
+/*-----portfolio----*/
+#portfolio
 {
 	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-bottom: 60px;
 	background: #111;
 }
 .bg5 h2
 {
 	padding-top: 0px;
+}
+.bg5 p
+{
+	color: #f1f1f1;
+	line-height: 1.7;
+	letter-spacing: 1.6px;
+	font-size: 14px;
+}
+.bg5 ul
+{
+	text-decoration: none;
+
+}
+.bg5 ul li
+{
+	display: inline-block;
+	color: #000;
+	border:solid 1px #000;
+	background:#fff;
+	padding: 2px 10px;
+	margin:0px 3px;
+	font-size: 16px;
+	font-weight: 500;
+}
+.bg5 .active
+{
+	background: #00a652 !important;
+	color: #fff;
+}
+.bg5 ul li:hover
+{
+	cursor: pointer;
+	color:#fff;
+	background: #00a652;
+	transition: 0.7s;
+}
+.line_2
+{
+	background: #666;
+	margin-top: 30px;
 }
 /*-------contact section css------*/
 #contact
@@ -506,6 +547,12 @@ html
 {
 	color: #f1f1f1;
 	font-size: 16px;
+}
+.get_in
+{
+	line-height: 1.7;
+	letter-spacing: 1.6px;
+	font-size: 14px;
 }
 .form
 {
